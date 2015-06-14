@@ -1,0 +1,79 @@
+body {
+    color: #341406;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+    margin: 0;
+    padding: 2em 1em;
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 42em;
+}
+
+.logotype {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    text-align: center;
+}
+
+.logotype-image {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.logotype-title {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.logotype-title .name {
+    border-bottom: 2px solid #feac00;
+    color: #feac00;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.logotype-title .day {
+    display: block;
+    color: #A03506;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.place {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pitch {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 480px) {
+    .logotype-title {
+        display: block;
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .logotype-title {
+        display: block;
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .pitch {
+        font-size: 1.25em;
+    }
+}
