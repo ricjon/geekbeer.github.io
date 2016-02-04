@@ -25,7 +25,7 @@ body {
 
 body {
   background-color: #ffffff;
-  color: #303030;
+  color: #614200;
   font-family: 'Lato', sans-serif;
   font-size: 100%;
   line-height: 1.4; }
@@ -256,7 +256,7 @@ a {
   padding: 0 1em; }
 
 .site-content {
-  max-width: 90em;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1em; }
@@ -386,13 +386,93 @@ a {
 .meetup-date {
   color: #614200;
   display: block;
-  font-size: 2.5em;
-  margin-bottom: 2em;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
   text-align: center; }
 
 .meetup-info {
-  max-width: 40em;
-  margin-right: auto;
-  margin-left: auto; }
+  margin-bottom: 3em; }
+
+@media only screen and (min-width: 768px) {
+  .meetup-date {
+    font-size: 2.5em; } }
+.presentations-title {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 2em;
+  text-align: center; }
+
+.presentation {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  display: block; }
+  .presentation::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.presentation-title {
+  color: #614200;
+  font-size: 1.25em;
+  font-weight: 400;
+  margin-bottom: 1em; }
+
+.presentation-speaker {
+  position: relative; }
+
+.presentation-speaker-name {
+  background-color: #222222;
+  border-radius: 25px;
+  color: #ffffff;
+  display: block;
+  font-size: 1.125em;
+  padding: 0.4em 1em;
+  text-align: center; }
+
+.presentation-speaker-twitter {
+  display: block;
+  font-size: 1.25em;
+  margin-left: 1em;
+  text-align: center;
+  margin-bottom: 1em; }
+
+.presentation-speaker-image {
+  border: 8px solid #222222;
+  border-radius: 50%;
+  display: block;
+  height: 150px;
+  margin: 0 auto;
+  width: 150px; }
+
+@media only screen and (min-width: 768px) {
+  .presentation {
+    min-height: 240px; }
+
+  .presentation-speaker-name {
+    text-align: left;
+    width: 90%; }
+
+  .presentation-speaker-twitter {
+    text-align: left; }
+
+  .presentation-speaker-image {
+    position: absolute;
+    top: 0;
+    right: 0; } }
+@media only screen and (min-width: 992px) {
+  .presentation-title {
+    float: left;
+    margin-right: 4%;
+    width: 56%; }
+
+  .presentation-speaker {
+    position: relative;
+    float: right;
+    width: 40%; }
+
+  .presentation-speaker-name {
+    width: 80%; } }
 
 /*# sourceMappingURL=coaster.css.map */
