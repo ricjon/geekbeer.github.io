@@ -46,6 +46,10 @@ a {
   text-align: center;
   padding: 1em 0; }
 
+.page-title-lvl3 {
+  text-align: center;
+  margin-bottom: 1em; }
+
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -281,6 +285,13 @@ a {
     clear: both;
     content: "";
     display: table; }
+
+.alert-info {
+  background-color: #DDF7FF;
+  border-radius: 35px;
+  font-size: 1.25em;
+  padding: 1em 2em;
+  margin-bottom: 2em; }
 
 .logotype {
   display: block; }
