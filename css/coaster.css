@@ -408,6 +408,10 @@ a {
 @media only screen and (min-width: 768px) {
   .meetup-date {
     font-size: 2.5em; } }
+.presentations {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 3em; }
+
 .presentations-title {
   font-size: 1.25em;
   font-weight: 700;
@@ -415,9 +419,8 @@ a {
   text-align: center; }
 
 .presentation {
-  border-bottom: 1px solid #cccccc;
-  margin-bottom: 3em;
-  padding-bottom: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
   display: block; }
   .presentation::after {
     clear: both;
@@ -442,12 +445,23 @@ a {
   padding: 0.4em 1em;
   text-align: center; }
 
-.presentation-speaker-twitter {
+.presentation-speaker-company {
+  border-bottom: 1px solid #cccccc;
   display: block;
-  font-size: 1.25em;
+  font-size: 1.125em;
+  margin-left: 1em;
+  margin-bottom: 0.25em;
+  padding: 0.5em 0 0.25em 0.5em;
+  text-align: center; }
+
+.presentation-speaker-twitter {
+  border-bottom: 1px solid #cccccc;
+  display: block;
+  font-size: 1.125em;
   margin-left: 1em;
   text-align: center;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  padding: 0.25em 0 0.5em 0.5em; }
 
 .presentation-speaker-image {
   border: 8px solid #222222;
@@ -464,6 +478,9 @@ a {
   .presentation-speaker-name {
     text-align: left;
     width: 90%; }
+
+  .presentation-speaker-company {
+    text-align: left; }
 
   .presentation-speaker-twitter {
     text-align: left; }
