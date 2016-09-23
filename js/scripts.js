@@ -5,7 +5,7 @@
 (function () {
     'use strict';
 
-    var key = '25824865869';
+    var key = '28059370332';
     var url = 'http://188.226.255.60/api/gb.php?key=' + key;
 
     nanoajax.ajax({url: url}, function (code, responseText) {
