@@ -1,3 +1,3 @@
-# Geek Beer Tuesday!
+# Geek Beer Meetup!
 
-Geek Beer Tuesday is a local developer meetup taking place on announced Tuesdays in Karlskrona, Sweden.
+Geek Beer meetup is a local developer meetup taking place on announced day in Karlskrona, Sweden.
